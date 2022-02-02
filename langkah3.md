@@ -1,4 +1,4 @@
-# Langkah ketiga - Setting pada virtual machine dan melakukan instalasi
+# Langkah ketiga - menjalankan virtual machine dan melakukan instalasi Debian 10
 
 1. Jalankan virtual machine dengan cara:
 

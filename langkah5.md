@@ -1,2 +1,2 @@
-# Langkah kelime - Menyelesaikan instalasi
+# Langkah kelima - Menyelesaikan instalasi
 
