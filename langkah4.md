@@ -56,9 +56,9 @@
 
 ## Partisi untuk /home
 
-1. Pilih FREE SPACE
+1. Pilih `FREE SPACE`
 
-    ![Pilih FREE SPACE](https://drive.google.com/uc?export=view&id=1WfOAEDghLNGmaLPyAw48LMIUa9dI9FBB)
+    ![Pilih FREE SPACE](https://drive.google.com/uc?export=view&id=1mj0kRIBJ_NQbVMaDSiBGFogogt7O4IGp)
 
 2. Pilih Create a new partition 
 
@@ -66,24 +66,72 @@
 
 3. Ubah partisi menjadi 3 GB
 
-    ![Ubah partisi menjadi 3 GB](https://drive.google.com/uc?export=view&id=1WfOAEDghLNGmaLPyAw48LMIUa9dI9FBB)
+    ![Ubah partisi menjadi 3 GB](https://drive.google.com/uc?export=view&id=1i3RaoCXvTvBVJxQlR2FWIk3flU5mLOu3)
 
 4. Pilih primary
 
-    ![pilih primary](https://drive.google.com/uc?export=view&id=1WfOAEDghLNGmaLPyAw48LMIUa9dI9FBB)
+    ![pilih primary](https://drive.google.com/uc?export=view&id=1faH7qxkG1c2JFH8MAtArbQUcpu4Vxl4H)
 
 
 5. Pilih Beginning
 
-    ![pilih beginning](https://drive.google.com/uc?export=view&id=1WfOAEDghLNGmaLPyAw48LMIUa9dI9FBB)
+    ![pilih beginning](https://drive.google.com/uc?export=view&id=1Ye5mu5D8B6-LPAPPnU9O5adSyM4VZIaD)
 
 6. Pastikan:
 
     - Use as : Ext4 journaling file system
-    - Mount point : /
+    - Mount point : /home
 
     > Tekan tombol `ENTER` untuk memunculkan pilihan
 
-    ![use as ext4, mount point /](https://drive.google.com/uc?export=view&id=1WfOAEDghLNGmaLPyAw48LMIUa9dI9FBB)
+    ![use as ext4, mount point /home](https://drive.google.com/uc?export=view&id=15SWtUSO9wkKuLqlvO67tpapkm4xUITxt)
 
     jika sudah, pilih `Done setting up the partition`
+
+## Partisi untuk swap area
+
+1. Pilih `FREE SPACE`
+
+    ![Pilih FREE SPACE](https://drive.google.com/uc?export=view&id=1AZgJJavu5SZYoAv2NOPL3nc9oSzAwW72)
+
+2. Pilih Create a new partition 
+
+    ![Pilih Create a new partition](https://drive.google.com/uc?export=view&id=1WfOAEDghLNGmaLPyAw48LMIUa9dI9FBB)
+
+3. Ubah partisi menjadi 2.6 GB
+
+    ![Ubah partisi menjadi 2.6 GB](https://drive.google.com/uc?export=view&id=1dVe5r92tiaxNqfqQ2miEw15XUw9lJD3z)
+
+4. Pilih primary
+
+    ![pilih primary](https://drive.google.com/uc?export=view&id=1faH7qxkG1c2JFH8MAtArbQUcpu4Vxl4H)
+
+
+5. Pastikan:
+
+    - Use as : Swap area
+
+    > Tekan tombol `ENTER` untuk memunculkan pilihan
+
+    ![use as swap area](https://drive.google.com/uc?export=view&id=18iVYk3kh6qZsOuyK00FoQbdidYUmmbSt)
+
+    jika sudah, pilih `Done setting up the partition`
+
+---
+
+Pastikan semua partisi sudah selesa dibuat
+
+- Klik `Finish partitioning and write changes to disk`
+
+    ![harddisk sudah terbagi menjadi 3 partisi](https://drive.google.com/uc?export=view&id=1Ef-eMXISblrvz5FHAGECRcZ5qDJX_cZS)
+
+- `Write changes to disks?` Pilih `Yes`
+
+    ![write changes to disks? yes](https://drive.google.com/uc?export=view&id=16At64EQJ_y8NxUT3rTuH9OgbNeDQUOqf)
+
+Sampai disini proses partisi sudah selesai dan system akan melakukan `Installing base system`. Silahkan ditunggu sampai proses selesai.
+
+![Installing base system](https://drive.google.com/uc?export=view&id=1znCgbEd4OXRDiMaqJZ275NVcssrjfdih)
+
+## [Lanjut ke langkah kelima - Menyelesaikan instalasi](langkah5.md)
+

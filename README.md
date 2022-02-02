@@ -3,6 +3,12 @@
 ## Yang dibutuhkan
 1. Aplikasi Oracle VM Virtual Box
 2. File ISO Debian versi 10
+    - debian-10.11.0-i386-netinst.iso untuk instalasi awal
+    - debian-10.11.0-i386-DVD-1.iso untuk update repository list
+    - debian-10.11.0-i386-DVD-2.iso untuk update repository list
+    - debian-10.11.0-i386-DVD-3.iso untuk update repository list
+
+    > DVD debian dibutuhkan untuk intalasi package  secara offline (__tanpa jaringan internet__)
 
 > Note: untuk instalasi yang lebih cepat disarankan untuk __tidak terhubung koneksi internet atau jaringan lainnya__.
 
