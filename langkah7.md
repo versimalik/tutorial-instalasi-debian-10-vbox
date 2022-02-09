@@ -73,7 +73,12 @@
 - masukkan perintah ini untuk update repo dan langsung install package
 
     ```shell
-    apt update && apt install php apache2 mariadb-server mariadb-client cacti samba clamav -y 
+    apt update 
+    ```
+    jika sudah selesai, kemudian
+
+    ```shell
+    apt install php apache2 mariadb-server mariadb-client cacti samba clamav -y 
     ```
 
 - jika diminta memasukkan DVD, lakukan cara yang sama seperti pada langkah 6
@@ -89,4 +94,16 @@
 - lakukan hal yang sama jika diminta DVD lain lagi
 
 - tunggu sampai instalasi selesai
+
+- jika instalasi selesai ubah ulang IP address menjadi seperti semula, menjadi static dan hilangkan tanda `#`
+
+    ```nano
+    auto enp0s3
+    iface enp0s3 inet static
+        address 10.30.30.5
+        netmask 255.255.255.128
+        gateway 10.30.30.1
+    ```
+
+## [Lanjut ke langkah kedelapan - Menambahkan user pada system](langkah8.md)
 
