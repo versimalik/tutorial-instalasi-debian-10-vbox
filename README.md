@@ -1,5 +1,7 @@
 # TUTORIAL INSTALASI DEBIAN 10 32 BIT DI VIRTUAL BOX
 
+> [Tutorial BGP](https://drive.google.com/file/d/1Ol4aeRJVCTnUPJBg5umarPcebDri_YDu/view?usp=sharing)
+
 ## Yang dibutuhkan
 1. Aplikasi Oracle VM Virtual Box
 2. File ISO Debian versi 10
