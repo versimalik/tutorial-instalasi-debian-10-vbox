@@ -17,7 +17,7 @@
 
     > Setting IP address bisa disesusikan dengan kebutuhan
 
-    - kemudian save dengan cara menekan tombol `CTRL`+`O`
+    - kemudian save dengan cara menekan tombol `CTRL`+`O`, kemudian tekan `ENTER`
 
     - kemudian exit dengan cara menekan tombol `CTRL`+`X`
 
@@ -31,5 +31,13 @@
     ip a
     ```
 
-sampai tahap ini IP sudah tersetting
+> sampai tahap ini IP sudah tersetting
 
+- untuk menyambungkan ke PC host yang sudah terkoneksi dengan router, ubah network pada virtual machine menjadi bridged adapter
+
+    ![Network ubah menjadi bridged adapter](https://drive.google.com/uc?export=view&id=1vmSFlCEFSo1yUb_RFcUCFfKWYgsAzpj-)
+
+- silahkan ping IP debian menggunakan CMD dari PC
+
+
+## [Lanjut ke langkah ketujuh - Update repo list dari DVD dan instalasi package](langkah7.md)
