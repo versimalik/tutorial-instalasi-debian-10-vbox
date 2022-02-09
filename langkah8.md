@@ -24,4 +24,4 @@
 
 - Masukkan user lain sesuai kebutuhan
 
-## [Lanjut ke langkah kesembilan - Konfigurasi samba](langkah8.md)
+## [Lanjut ke langkah kesembilan - Konfigurasi samba](langkah9.md)
