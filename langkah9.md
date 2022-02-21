@@ -50,3 +50,8 @@
     ```shell
     systemctl restart smdb
     ```
+
+- Akses file server dari PC windows dengan cara:
+    - menekan tombol `WINDOWS + R`
+    - masukkan IP server `\\10.30.30.5`
+    - tekan `ENTER`
